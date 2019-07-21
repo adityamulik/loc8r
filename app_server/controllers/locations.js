@@ -5,12 +5,12 @@ const homelist = (req, res) => {
 
 /* Get 'Location info' page */
 const locationInfo = (req, res) => {
-    res.render('index', {title: 'Location Info'});
+    res.render('location-info', {title: 'Location Info'});
 };
 
 /* Get 'Add Review' page */
 const addReview = (req, res) => {
-    res.render('index', {title: 'Add Review'});
+    res.render('location-review-form', {title: 'Add Review'});
 };
 
 module.exports = {
